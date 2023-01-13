@@ -58,26 +58,26 @@ Now, when trying the following commands as part of the assignment, you will get 
 
 `ls -lat` When running the following command, you will get the following result:
 ```total 128
--rw-r--r--   1 cs15lwi23amy ieng6_cs15lwi23  1346 Jan 13 15:14 .modulesbegenv
--rw-r-----   1 cs15lwi23amy ieng6_cs15lwi23     0 Jan 13 15:14 .motd
+-rw-r--r--   1 cs15lwi23abc ieng6_cs15lwi23  1346 Jan 13 15:14 .modulesbegenv
+-rw-r-----   1 cs15lwi23abc ieng6_cs15lwi23     0 Jan 13 15:14 .motd
 drwxr-sr-x 638 cs15lwi23    ieng6_cs15lwi23 53248 Jan 13 08:06 ..
--rw-------   1 cs15lwi23amy ieng6_cs15lwi23   182 Jan 11 15:12 .bash_history
-drwxr-s---   6 cs15lwi23amy ieng6_cs15lwi23  4096 Jan 11 15:12 .
-drwxr-sr-x   2 cs15lwi23amy ieng6_cs15lwi23  4096 Jan 11 13:46 perl5
-drwxr-sr-x   3 cs15lwi23amy ieng6_cs15lwi23  4096 Jan 11 13:46 .local
-drwxr-sr-x   3 cs15lwi23amy ieng6_cs15lwi23  4096 Jan 11 13:46 .config
-drwxr-sr-x   3 cs15lwi23amy ieng6_cs15lwi23  4096 Jan 11 13:46 .cache
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   290 Jan  6 15:11 .zshrc
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   481 Jan  6 15:11 .zshenv
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23  1931 Jan  6 15:11 .zprofile
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23  1961 Jan  6 15:11 .profile
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   837 Jan  6 15:11 .procmailrc
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   431 Jan  6 15:11 .login
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   155 Jan  6 15:11 .locallogin
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23  1692 Jan  6 15:11 .kshrc
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23  1931 Jan  6 15:11 .cshrc
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23  1721 Jan  6 15:11 .bashrc
--rwxr-x---   1 cs15lwi23amy ieng6_cs15lwi23   975 Jan  6 15:11 .bash_profile
+-rw-------   1 cs15lwi23abc ieng6_cs15lwi23   182 Jan 11 15:12 .bash_history
+drwxr-s---   6 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 15:12 .
+drwxr-sr-x   2 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 13:46 perl5
+drwxr-sr-x   3 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 13:46 .local
+drwxr-sr-x   3 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 13:46 .config
+drwxr-sr-x   3 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 13:46 .cache
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   290 Jan  6 15:11 .zshrc
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   481 Jan  6 15:11 .zshenv
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23  1931 Jan  6 15:11 .zprofile
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23  1961 Jan  6 15:11 .profile
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   837 Jan  6 15:11 .procmailrc
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   431 Jan  6 15:11 .login
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   155 Jan  6 15:11 .locallogin
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23  1692 Jan  6 15:11 .kshrc
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23  1931 Jan  6 15:11 .cshrc
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23  1721 Jan  6 15:11 .bashrc
+-rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   975 Jan  6 15:11 .bash_profile
 ```
 `ls -a` This command returns the following:
 ```.              .bashrc  .kshrc       .modulesbegenv  .zprofile
