@@ -44,21 +44,22 @@ Some of the basic commands that you can try in the terminal are as follows:
 
 `ls` This command lists all the files in the current directory except hidden files.
 
-` pwd ` This command stands for 'print working directory'. If this command is executed, it prints and lets the user know which exact directory they are currently in.
+`pwd` This command stands for 'print working directory'. If this command is executed, it prints and lets the user know which exact directory they are currently in.
 
-` mkdir ` This command creates a new directory or subdirectory within the current working directory.
+`mkdir` This command creates a new directory or subdirectory within the current working directory.
 
-` cp ` - cp stands for copy. This command is used to copy a single file or a group of files. It creates an exact image of a file on a disk with different file name.
+`cp` - cp stands for copy. This command is used to copy a single file or a group of files. It creates an exact image of a file on a disk with different file name.
 
 
 Now, when trying the following commands as part of the assignment, you will get the following results:
 
-` cd ` This command will just return back nothing, meaning that it was successfully executed.
+`cd` This command will just return back nothing, meaning that it was successfully executed.
 
-` cd ~`This command will just change the current directory back to the home directory and return nothing, meaning that it was successfully executed.
+`cd~`This command will just change the current directory back to the home directory and return nothing, meaning that it was successfully executed.
 
 `ls -lat` When running the following command, you will get the following result:
-```total 128
+```
+total 128
 -rw-r--r--   1 cs15lwi23abc ieng6_cs15lwi23  1346 Jan 13 15:14 .modulesbegenv
 -rw-r-----   1 cs15lwi23abc ieng6_cs15lwi23     0 Jan 13 15:14 .motd
 drwxr-sr-x 638 cs15lwi23    ieng6_cs15lwi23 53248 Jan 13 08:06 ..
@@ -81,7 +82,8 @@ drwxr-sr-x   3 cs15lwi23abc ieng6_cs15lwi23  4096 Jan 11 13:46 .cache
 -rwxr-x---   1 cs15lwi23abc ieng6_cs15lwi23   975 Jan  6 15:11 .bash_profile
 ```
 `ls -a` This command returns the following:
-```.              .bashrc  .kshrc       .modulesbegenv  .zprofile
+```
+.              .bashrc  .kshrc       .modulesbegenv  .zprofile
 ..             .cache   .local       .motd           .zshenv
 .bash_history  .config  .locallogin  .procmailrc     .zshrc
 .bash_profile  .cshrc   .login       .profile        perl5
