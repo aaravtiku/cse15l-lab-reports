@@ -18,7 +18,8 @@ After successfully copying this, you will get the following message:
 Respond, **yes** to this message on the terminal.
 If completed successfully, the following dialogue should appear:
 
-```Hello cs15lwi23amy, you are currently logged into ieng6-203.ucsd.edu
+```
+Hello cs15lwi23amy, you are currently logged into ieng6-203.ucsd.edu
 
 You are using 0% CPU on this system
 
@@ -39,22 +40,22 @@ This activity is designed so as to get an idea of how the terminal works. First,
 Some of the basic commands that you can try in the terminal are as follows:
 
 
-`cd` This command stands for 'change directory'. If you add a `~` symbol, it returns to the home directory. Instead, if your current working directory is `Users/yourname` add a path name after cd, for example `cd JavaProjects`, the new working directory would be `Users/yourname/JavaProjects`. You can verify this by typing `pwd` after the command.
+` cd ` This command stands for 'change directory'. If you add a ` ~ ` symbol, it returns to the home directory. Instead, if your current working directory is ` Users/yourname ` add a path name after cd, for example ` cd JavaProjects `, the new working directory would be ` Users/yourname/JavaProjects `. You can verify this by typing ` pwd ` after the command.
 
-`ls` This command lists all the files in the current directory except hidden files.
+` ls ` This command lists all the files in the current directory except hidden files.
 
-`pwd` This command stands for 'print working directory'. If this command is executed, it prints and lets the user know which exact directory they are currently in.
+` pwd ` This command stands for 'print working directory'. If this command is executed, it prints and lets the user know which exact directory they are currently in.
 
-`mkdir` This command creates a new directory or subdirectory within the current working directory.
+` mkdir ` This command creates a new directory or subdirectory within the current working directory.
 
-`cp` - cp stands for copy. This command is used to copy a single file or a group of files. It creates an exact image of a file on a disk with different file name.
+` cp ` - cp stands for copy. This command is used to copy a single file or a group of files. It creates an exact image of a file on a disk with different file name.
 
 
 Now, when trying the following commands as part of the assignment, you will get the following results:
 
-`cd` This command will just return back nothing, meaning that it was successfully executed.
+` cd ` This command will just return back nothing, meaning that it was successfully executed.
 
-`cd ~`This command will just change the current directory back to the home directory and return nothing, meaning that it was successfully executed.
+` cd ~`This command will just change the current directory back to the home directory and return nothing, meaning that it was successfully executed.
 
 `ls -lat` When running the following command, you will get the following result:
 ```total 128
