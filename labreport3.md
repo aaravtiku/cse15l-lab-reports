@@ -77,9 +77,11 @@ Similar to the last command, in this command I checked the list of files that we
 
 <img width="480" alt="image" src="https://user-images.githubusercontent.com/89179888/218567593-63bce7d7-de5d-4b91-a85b-db561700e6f7.png">
 
+In the above terminal command, I tried to find the the files which are of size greater than 2MB. A few files were found.
+
 <img width="514" alt="image" src="https://user-images.githubusercontent.com/89179888/218568665-8a57fd8c-be15-4699-bd0f-788a7d83cd79.png">
 
-In the above terminal command, I tried to find the the files which are of size greater than 2MB, whereas in the below terminal command, I tried to find the files of size greater than 10MB.
+In the above terminal command, I tried to find the the files which are of size greater than 10MB. Only one file was found.
 
 ## Acknowledgements
 I would like to acknowledge the three sources I used for writing the Week 5 Lab Report:
