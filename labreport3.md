@@ -42,7 +42,13 @@ Therefore, there are 224 files, 224 words and 11245 characters.
 
 Similarly, I used this command to find the number of travel guides inside the 'berlitz1' subdirectory as follows:
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/89179888/218353603-f503f40d-bfcd-4684-9e25-a507ba377be0.png">
+
 Hence, there are 101 travel guides in the berlitz1 subdirectory.
+
+3) Finding a file based on the creation time - It is possible to find files absed on when they were created using the `-mtime` command. An example of this can be seen below:
+4) <img width="570" alt="image" src="https://user-images.githubusercontent.com/89179888/218355170-e7802ef8-af86-4ef2-9571-4233bff40386.png">
+
+In the above command, I checked the list of files that were created in a period of time greater than 7 days back.
 
 
 
