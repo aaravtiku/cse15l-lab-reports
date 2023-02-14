@@ -96,6 +96,7 @@ public class Server {
 ### Starting the Server
 
 1) I first compiled the `Server.java` and `StringServer.java` files.
+
 2) I hosted the server locally on my laptop using the following code:
 
 ```
@@ -104,8 +105,11 @@ javac Server.java StringServer.java
 java StringServer 4000
 ```
 3) The local port in which the server is hosted is 2023.
+
 4) The given string is parsed into an int type and is stored in `port`
+
 5) The above is passed as an argument to `Server.start`
+
 6) The server is started and a link to visit the server is generated. This can be seen below:
 
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/89179888/218656359-d67d3492-eb93-41a0-a500-a3e24da8e1e0.png">
@@ -116,10 +120,15 @@ java StringServer 4000
 
 
 1) When the server is being hosted, you can just make a change to the URL to modify the page.
+
 2) Adding `Hi!` to the webpage by changing the URL - `http://localhost:2023/add-message?s=Hi!`
+
 3) The above URL is used as the argument in `handleRequest`
+
 4) The `url.getQuery().split("=")` splits the request into two different parameters.
+
 5) `parameters[0]` contains 's' and `parameters[1]` contains 'Hi!'
+
 6) 'Hi!' is added to `stringgiven` and that value is returned, and it gets displayed on the webpage.
 
 
@@ -128,11 +137,17 @@ java StringServer 4000
 <img width="633" alt="image" src="https://user-images.githubusercontent.com/89179888/218659321-711fd534-5585-4097-97a2-70c47f343b43.png">
 
 1) Previously, I already added the message `Hi!` by making minor changes to the URL.
+
 2) I made a minor change to the URL by adding `http://localhost:2023/add-message?s=Aarav`
+
 3) The above URL is used as the argument in `handleRequest`
+
 4) The `url.getQuery().split("=")` splits the request into two different parameters.
+
 5) `parameters[0]` contains 's' and `parameters[1]` contains 'Aarav'
+
 6) 'Aarav' is added to `stringgiven` and that value is returned, and it gets displayed on the webpage.
+
 7) Since 'Aarav' is the second value being added to 'stringgiven', the `\n` separates 'Hi!' and 'Aarav' into two different lines.
 
 ## Part 2
