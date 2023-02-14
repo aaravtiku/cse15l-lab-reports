@@ -15,7 +15,7 @@ Of the above commands, I wish to explore the `find` command in greater detail.
 
 ## Find Command Uses
 
-### find -name command
+### find . -name command
 Checking whether a file with a specific name exists - There are two main ways in which this can be done.
 One of the ways of doing this is by checking files from the root directory and performing a search on a large
 number of files using the command `$ find / -name "WhereToIndia.txt"` . Depending on whether you have file permissions
