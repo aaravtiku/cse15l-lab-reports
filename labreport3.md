@@ -84,7 +84,7 @@ In the above terminal command, I tried to find the the files which are of size g
 In the above terminal command, I tried to find the the files which are of size greater than 10MB. Only one file was found.
 
 ## Acknowledgements
-I would like to acknowledge the three sources I used for writing the Week 5 Lab Report:
+I used three sources for writing the Week 5 Lab Report:
 
 1)[Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
