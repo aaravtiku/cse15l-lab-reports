@@ -103,11 +103,13 @@ public class Server {
 
 2) I hosted the server locally on my laptop using the following code:
 
+
 ```
 javac Server.java StringServer.java
 
 java StringServer 4000
 ```
+
 3) The local port in which the server is hosted is 2023.
 
 4) The given string is parsed into an int type and is stored in `port`
