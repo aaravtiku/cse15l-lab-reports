@@ -1,4 +1,4 @@
-# CSE15L Week 3 Lab Report
+# CSE15L Lab Report 2
 ## Part 1
 The first step of the Lab Activity is to modify the NumberServer code and fix it so that it takes in a string and perform operations with it instead of number as in the NumberServer code, and rename it StringServer.
 After making a few minor changes to my code, I renamed the code StringServer. The revised code is as follows:
