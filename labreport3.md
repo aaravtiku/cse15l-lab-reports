@@ -15,7 +15,8 @@ Of the above commands, I wish to explore the `find` command in greater detail.
 
 ## Find Command Uses
 
-1) Checking whether a file with a specific name exists - There are two main ways in which this can be done.
+### find -name command
+Checking whether a file with a specific name exists - There are two main ways in which this can be done.
 One of the ways of doing this is by checking files from the root directory and performing a search on a large
 number of files using the command `$ find / -name "WhereToIndia.txt"` . Depending on whether you have file permissions
 to access all files, it may work or not work. For example, when using this command in the `ieng6` server, it did not
@@ -33,7 +34,8 @@ Another example of using this command is as follows:
 In the first example, we just checked for the existence of a file containing 'WhereToIndia', whereas in the second command,
 we checked for all the files of the form "txt".
 
-2) Converting the files present in a particular directory into a '.txt' form - As demonstrated in task 5 of the skill demo,
+### Using find to convert files in a directory to .txt form
+Converting the files present in a particular directory into a '.txt' form - As demonstrated in task 5 of the skill demo,
 it is possible to convert a list of files present in a particular directory into a .txt file. This is useful for computing the
 number of files present in a given directory, the number of words or characters present in a given 
 directory. 
@@ -51,7 +53,8 @@ Similarly, I used this command to find the number of travel guides inside the 'b
 
 Hence, there are 101 travel guides in the berlitz1 subdirectory.
 
-3) Finding a file based on the creation time - It is possible to find files absed on when they were created using the `-mtime` command. An example of this can be seen below:
+### find -mtime command
+Finding a file based on the creation time - It is possible to find files absed on when they were created using the `-mtime` command. An example of this can be seen below:
 
 <img width="570" alt="image" src="https://user-images.githubusercontent.com/89179888/218355170-e7802ef8-af86-4ef2-9571-4233bff40386.png">
 
@@ -61,7 +64,8 @@ In the above command, I checked the list of files that were created in a period 
 
 Similar to the last command, in this command I checked the list of files that were made in a period of time greater than 30 days ago.
 
-4) Finding a file based on its size - Depending on the file's size, it is possible to find the file if specifying specific parameters in the command terminal. In the command terminal, the sizes are abbreviated as follows:
+### find -size command
+Finding a file based on its size - Depending on the file's size, it is possible to find the file if specifying specific parameters in the command terminal. In the command terminal, the sizes are abbreviated as follows:
 
 `b` - 512-byte blocks(default)
 
