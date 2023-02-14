@@ -1,4 +1,4 @@
-# Week 3 Lab Report
+# CSE 15L Lab Report 3
 ## Different Terminal Commands
 
 There are different commands that can be used in the terminal, some of which are as follows:
