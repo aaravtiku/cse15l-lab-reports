@@ -41,6 +41,7 @@ class StringServer {
 <p>&nbsp;</p>
 
 The code for Server.java is as follows:
+
 ```java
 // A simple web server using Java's built-in HttpServer
 
