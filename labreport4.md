@@ -3,7 +3,7 @@
 ## Challenge Tasks
 In this lab report, I will discuss the steps involved for the Lab Challenge that took place on 22/02.
 
-Before starting the challenge, it is important to generate SSH keys for both ieng6 and Github. It can be done as follows:
+Before starting the challenge, it is important to generate SSH keys for both ieng6 and Github first. It can be done as follows:
 
 ### Generating SSH keys for ieng6
 
@@ -53,7 +53,9 @@ Task 5) Cloning the fork of the repository from Github:
 
 Task 6) Running the JUnit tests. As completed during Week 3, we need to first compile and then run the JUnit tests. This can be done by running the
 following commands:
+  
   1) `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+  
   2) `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
 
 The result that we get when running these commands is as follows:
