@@ -6,4 +6,4 @@ Hello World!
 
 [Lab Report 3](labreport3.md)
 
-[Lab Report 3](labreport4.md)
+[Lab Report 4](labreport4.md)
