@@ -88,11 +88,11 @@ This indicates that the JUnit tests have been successful and we don't need to do
 
 Task 9) The final task is to commit and push the changes to the Github account. This can be by typing the following commands in the terminal:
 
-`git add .` - adds a change in the working directory
+  1)`git add .` - adds a change in the working directory
 
-`git commit -m "changes reflected"` - commits the change in the working directory with the message "changes reflected"
+  2)`git commit -m "changes reflected"` - commits the change in the working directory with the message "changes reflected"
 
-`git push` - pushes the new changes to GitHub
+  3)`git push` - pushes the new changes to GitHub
 
 Upon completing the above steps in the terminal, you should get the following response:
 
