@@ -75,8 +75,12 @@ The result that we get when running these commands is as follows:
 Task 7) As there are some errors, as the code is not passing all the test cases, we need to edit the code so as to ensure that the code passes
 all the test cases.
 
-To make changes to the code within the terminal itself, I used the command `nano ListExamples.java`, and updated the following part of the code:
+To make changes to the code within the terminal itself, I used the command `nano ListExamples.java`, and navigated using the following commands:
 
+<down(until I reached line 43)><right(12 times)><backspace><2>
+  
+ By completing the commands mentioned above, I fixed the error in the code.
+ 
 <img width="337" alt="image" src="https://user-images.githubusercontent.com/89179888/221742640-4c423d16-e52d-43b2-a9ec-41aa24c837eb.png">
 
 Once done, I pressed the following keys to save my changes and exit the terminal text-based editor:
@@ -89,9 +93,12 @@ Now, the code has been edited and one can test it out.
 Task 8) Now, we can test out the code using the JUnit tests to assess whether everything works seamlessly. 
 
 To do this, I pressed the following keys:
+
 `<up><up><enter>` (compilation of the JUnit tests)
+
 `<up><enter>` (Running the JUnit tests)
-I completed the above steps rather than just copy-pasting the commands because they were present in my command terminal history. 
+
+  I completed the above steps rather than just copy-pasting the commands because they were present in my command terminal history. 
 Now, I get the following message on the JUnit terminal:
 
 <img width="924" alt="image" src="https://user-images.githubusercontent.com/89179888/221743861-6026aa14-0efa-4465-8ed6-e8ca967b37e3.png">
@@ -100,9 +107,13 @@ This indicates that the JUnit tests have been successful and we don't need to do
 
 Task 9) The final task is to commit and push the changes to the Github account. This can be by typing the following commands in the terminal:
 
-  1)`git add .` - adds a change in the working directory
+  1)`git add .` - adds all the changes in the current working directory and its subdirectories to the staging area. The staging area is one prepares changes to be committed to the Git repository.
 
   2)`git commit -m "changes reflected"` - commits the change in the working directory with the message "changes reflected"
+  
+  It should appear like this in the terminal once the changes have been committed:
+  
+  <img width="568" alt="image" src="https://user-images.githubusercontent.com/89179888/224816003-65e70798-3139-4578-9b7b-6c8170f7210e.png">
 
   3)`git push` - pushes the new changes to GitHub
 
