@@ -69,6 +69,15 @@ In the above image, my current directory is `/home/linux/ieng6/cs15lwi23/cs15lwi
 
 The command `export GREP_COLORS='ms=01;34` sets the default color to blue, so when you execute the same command as above, instead of red, the part of the text that you want to be colored will now be colored blue instead.
 
+## Acknowledgements
+I used three sources for writing the Week 5 Lab Report:
+
+1)[Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+
+2)[grep Commands in Linux](https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/#:~:text=Grep%20is%20a%20useful%20command,a%20powerful%20command%20to%20use.)
+
+3)[ChatGPT](https://chat.openai.com/)
+
 
 
 
