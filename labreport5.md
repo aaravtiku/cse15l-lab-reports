@@ -67,7 +67,7 @@ In the above image, my current directory is `/home/linux/ieng6/cs15lwi23/cs15lwi
 
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/89179888/224780306-e46e4cb6-a82a-47ef-ad98-ae53747e3ded.png">
 
-The command `export GREP_COLORS='ms=01;34` sets the default color to blue, so when you execute the same command as above, instead of red, the part of the text that you want to be colored will now be colored blue instead.
+The command `export GREP_COLORS='ms=01;34` sets the default color to blue, so when you execute the same command as done in the first example, instead of red, the part of the text that you want to be colored will now be colored blue instead.
 
 ## Acknowledgements
 I used three sources for writing the Week 5 Lab Report:
