@@ -43,15 +43,25 @@ Now, we can work on the challenge tasks(4-9):
 
 ### The Challenge 
 
-Task 4) Logging in to the ieng6 account. As demonstrated above, we can login to the ieng6 account by doing the following:
+Task 4) Logging in to the ieng6 account. As demonstrated above, we can login to the ieng6 account by typing the command `ssh cs15lwi23amy@ieng6.ucsd.edu` as demonstrated below:
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/89179888/221725151-9bb5217f-a8c8-4c67-a64c-1311edd944c9.png">
 
 Task 5) Cloning the fork of the repository from Github:
 
+<img width="353" alt="image" src="https://user-images.githubusercontent.com/89179888/224796247-73c5220c-3cae-43fc-a634-623484b36a7a.png">
+
+This indicates that I have successfully forked the repository from my GitHub account. 
+
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/89179888/224796736-a57524ea-8541-4836-860c-686f276d9483.png">
+
+From my GitHub account, I get the above link which I use to clone the fork of the repository from my GitHub account in the terminal and use the command `git clone git@github.com:aaravtiku/lab7.git`. This is demonstrated below:
+
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/89179888/221741147-b61e2a97-de66-43da-858e-6e0354373783.png">
 
-Task 6) Running the JUnit tests. As completed during Week 3, we need to first compile and then run the JUnit tests. This can be done by running the
+Task 6) Running the JUnit tests
+
+As completed during Week 3, we need to first compile and then run the JUnit tests. This can be done by running the
 following commands:
   
   1) `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
@@ -60,7 +70,7 @@ following commands:
 
 The result that we get when running these commands is as follows:
 
-<img width="740" alt="image" src="https://user-images.githubusercontent.com/89179888/221741778-2ef1506a-1f55-4ded-849a-7c0178c32d1f.png">
+<img width="569" alt="image" src="https://user-images.githubusercontent.com/89179888/224799732-4589936a-b492-43be-b359-b4ddfd1956f7.png">
 
 Task 7) As there are some errors, as the code is not passing all the test cases, we need to edit the code so as to ensure that the code passes
 all the test cases.
