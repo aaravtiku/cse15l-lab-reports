@@ -43,7 +43,7 @@ Now, we can work on the challenge tasks(4-9):
 
 ### The Challenge 
 
-Task 4) Logging in to the ieng6 account. As demonstrated above, we can login to the ieng6 account by typing the command `ssh cs15lwi23amy@ieng6.ucsd.edu` as demonstrated below:
+Task 4) Logging in to the ieng6 account. As demonstrated above, we can login to the ieng6 account by typing the command `ssh cs15lwi23amy@ieng6.ucsd.edu` and then press the `<enter>` key as demonstrated below:
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/89179888/221725151-9bb5217f-a8c8-4c67-a64c-1311edd944c9.png">
 
@@ -55,7 +55,7 @@ This indicates that I have successfully forked the repository from my GitHub acc
 
 <img width="434" alt="image" src="https://user-images.githubusercontent.com/89179888/224796736-a57524ea-8541-4836-860c-686f276d9483.png">
 
-From my GitHub account, I get the above link which I use to clone the fork of the repository from my GitHub account in the terminal and use the command `git clone git@github.com:aaravtiku/lab7.git`. This is demonstrated below:
+From my GitHub account, I get the above link which I use to clone the fork of the repository from my GitHub account in the terminal and use the command `git clone git@github.com:aaravtiku/lab7.git` and then press `<enter>`. This is demonstrated below:
 
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/89179888/221741147-b61e2a97-de66-43da-858e-6e0354373783.png">
 
@@ -64,9 +64,9 @@ Task 6) Running the JUnit tests
 As completed during Week 3, we need to first compile and then run the JUnit tests. This can be done by running the
 following commands:
   
-  1) `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+  1) `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` `<enter>`
   
-  2) `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
+  2) `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` `<enter>`
 
 The result that we get when running these commands is as follows:
 
@@ -77,7 +77,7 @@ all the test cases.
 
 To make changes to the code within the terminal itself, I used the command `nano ListExamples.java`, and navigated using the following commands:
 
-<down(until I reached line 43)><right(12 times)>\<backspace\><2>
+`<down(until I reached line 43)><right(12 times)>\<backspace\><2>`
   
  By completing the commands mentioned above, I fixed the error in the code.
  
@@ -107,15 +107,15 @@ This indicates that the JUnit tests have been successful and we don't need to do
 
 Task 9) The final task is to commit and push the changes to the Github account. This can be by typing the following commands in the terminal:
 
-  1)`git add .` - adds all the changes in the current working directory and its subdirectories to the staging area. The staging area is one prepares changes to be committed to the Git repository.
+  1)`git add .` - adds all the changes in the current working directory and its subdirectories to the staging area. The staging area is one prepares changes to be committed to the Git repository. After writing this command, I pressed the `<enter>` key.
 
-  2)`git commit -m "changes reflected"` - commits the change in the working directory with the message "changes reflected"
+  2)`git commit -m "changes reflected"` - commits the change in the working directory with the message "changes reflected". After writing this command, I pressed the `<enter>` key.
   
   It should appear like this in the terminal once the changes have been committed:
   
   <img width="568" alt="image" src="https://user-images.githubusercontent.com/89179888/224816003-65e70798-3139-4578-9b7b-6c8170f7210e.png">
 
-  3)`git push` - pushes the new changes to GitHub
+  3)`git push` - pushes the new changes to GitHub. After writing this command, I pressed the `<enter>` key.
 
 Upon completing the above steps in the terminal, you should get the following response:
 
