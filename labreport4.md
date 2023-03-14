@@ -77,7 +77,7 @@ all the test cases.
 
 To make changes to the code within the terminal itself, I used the command `nano ListExamples.java`, and navigated using the following commands:
 
-<down(until I reached line 43)><right(12 times)><backspace><2>
+<down(until I reached line 43)><right(12 times)>\<backspace\><2>
   
  By completing the commands mentioned above, I fixed the error in the code.
  
