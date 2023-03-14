@@ -21,9 +21,9 @@ Checking whether a file with a specific name exists - With the help of the grep 
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/89179888/224633416-a832793c-2e90-47f1-b716-f36f5c2fe352.png">
 
-Taking the example of the command used in the Skill Demo 1, the command "grep -r -l "Lucayans"" recursively searches for the string "Lucayans" in all files and directories in the current directory, and its subdirectories.
+Taking the example of the command used in the Skill Demo 1, the command `grep -r -l "Lucayans"` recursively searches for the string "Lucayans" in all files and directories in the current directory, and its subdirectories.
 The current directory in which I search for the string "Lucayans" is `/home/linux/ieng6/cs15lwi23/cs15lwi23amy/skill-demo1-server/skill-demo1-data`
-It only prints the names of the files that contain the string "Lucayans", which in this case is Bahamas-History.txt
+It only prints the names of the files that contain the string "Lucayans", which in this case is `Bahamas-History.txt`.
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/89179888/224636211-6738fb58-8f55-4264-9764-614b7e982508.png">
 
@@ -31,6 +31,7 @@ There is a slight difference between this command and the previous command as me
 
 
 1) In the above commands, `-r` stands for "recursive", meaning that the search will be performed in all subdirectories as well.
+
 2) In the above commands, `-l` stands for "files with matches", meaning that only the names of the files containing the search string will be printed, not the actual matching lines.
 
 ### Search for lines that contain a pattern and output the results to a new file
@@ -47,7 +48,7 @@ While executing the above command, my current directory is `/home/linux/ieng6/cs
 
 ### Counting the number of files in a directory
 
-The `grep` and 'ls' command can also be used simultaneously to count the number of files inside of a directory. This can be done in the following way:
+The `grep` and `ls` command can also be used simultaneously to count the number of files inside of a directory. This can be done in the following way:
 
 Example 1:
 
