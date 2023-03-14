@@ -47,7 +47,7 @@ While executing the above command, my current directory is `/home/linux/ieng6/cs
 
 ### Counting the number of files in a directory
 
-The `grep` command can also be used to count the number of files inside of a directory. This can be done in the following way:
+The `grep` and 'ls' command can also be used simultaneously to count the number of files inside of a directory. This can be done in the following way:
 
 Example 1:
 
