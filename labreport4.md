@@ -45,7 +45,7 @@ Now, we can work on the challenge tasks(4-9):
 
 Task 4) Logging in to the ieng6 account. As demonstrated above, we can login to the ieng6 account by typing the command `ssh cs15lwi23amy@ieng6.ucsd.edu` and then press the `<enter>` key as demonstrated below:
 
-<img width="578" alt="image" src="https://user-images.githubusercontent.com/89179888/221725151-9bb5217f-a8c8-4c67-a64c-1311edd944c9.png">
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/89179888/224908603-620ece5b-020c-4d40-9e17-976bd8868879.png">
 
 Task 5) Cloning the fork of the repository from Github:
 
@@ -96,7 +96,7 @@ To do this, I pressed the following keys:
 
 `<up><up><enter>` (compilation of the JUnit tests)
 
-`<up><enter>` (Running the JUnit tests)
+`<up><up><enter>` (Running the JUnit tests, the command is the same as the above command because now the 2nd command is two commands above)
 
   I completed the above steps rather than just copy-pasting the commands because they were present in my command terminal history. 
 Now, I get the following message on the JUnit terminal:
