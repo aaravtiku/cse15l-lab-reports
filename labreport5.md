@@ -26,6 +26,7 @@ The current directory in which I search for the string "Lucayans" is `/home/linu
 It only prints the names of the files that contain the string "Lucayans", which in this case is Bahamas-History.txt
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/89179888/224636211-6738fb58-8f55-4264-9764-614b7e982508.png">
+
 There is a slight difference between this command and the previous command as mentioned above, as it prints all lines that contain the word "Lucayans" in all files and subdirectories under the specified directory, while the first command will only print the names of files that contain the word "Lucayans".
 
 
